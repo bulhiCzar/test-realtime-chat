@@ -1,0 +1,14 @@
+.entry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid silver;
+
+  &Input {
+    font-size: 20px;
+    width: 80%;
+  }
+  &Button{
+    width: 10%;
+  }
+}

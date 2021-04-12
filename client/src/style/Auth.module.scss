@@ -1,0 +1,39 @@
+.auth {
+  width: 25%;
+  min-width: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 26px 12px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+
+  &Title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 28px;
+  }
+
+  &Body {
+    display: flex;
+    flex-direction: column;
+
+    &Input{
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+
+    &Btn{
+      border: 1px solid black;
+      transition: all .2s;
+      box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+
+      &:hover{
+        background-color: rgba(0, 0, 0, 0.02);
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
+      }
+    }
+  }
+}
